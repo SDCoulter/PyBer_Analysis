@@ -24,7 +24,7 @@ This DataFrame gave us a good look at the comparison between City Types, and fro
 
 We also used our summary DataFrame to create a multi-line graph based on the Total Fares for each City, separated into weeks:
 
-![]('analysis/PyBer_fare_summary.png')
+![]('/analysis/PyBer_fare_summary.png')
 
 To create this graph, we created a new DataFrame that took into account the City Types (like before), but also the dates of the rides. We then found the Total Fares for these days and combined them into weeks that we would create the plot with. This was done using `pivot` and resampling the DataFrame with `resample`. The initial look at the graph gives us a visualization of the conclusions we drew from the Summary DataFrame: that there is more total spending (Total Fares) in the Urban cities compared to Suburban cities and the even smaller Rural ones.
 
