@@ -14,11 +14,12 @@ We used the dataset available to us to compare the different City Types in sever
 
 This DataFrame gave us a good look at the comparison between City Types, and from it we can see some large differences:
 
-- Both the Total Rides and Total Drivers are much lower in the Rural cities when compared to Urban ones. In general, there are less people in Rural areas compared to Urban, so there is likely less demand for rides and less drivers available to fill the demand.
-- Both the Average Fare per Ride and Average Fare per Driver is lower in Urban cities compared to Rural. This could be due to the distances between stops increasing the cost for each ride.
+- Both the ***Total Rides*** and ***Total Drivers*** are much lower in the Rural cities when compared to Urban ones. In general, there are less people in Rural areas compared to Urban, so there is likely less demand for rides and less drivers available to fill the demand.
+- Both the ***Average Fare per Ride*** and ***Average Fare per Driver*** is lower in Urban cities compared to Rural. This could be due to the distances between stops increasing the cost for each ride.
+- The differences in ***Total Fares*** speak for themselves, the Urban cities have a higher population and so more rides and drivers meaning they pull in more revenue than both Rural and Suburban cities combined.
 - The Suburban sits between the two other City Types as expected, as it contains elements from both: more people than Rural cities, and more spaced out than Urban ones.
 
-We also used our summary DataFrame to create a multi-line graph based on the Total Fares for each City, separated into weeks:
+We also used our summary DataFrame to create a multi-line graph based on the ***Total Fares for each City***, separated into weeks:
 
 ![](analysis/PyBer_fare_summary.png)
 
